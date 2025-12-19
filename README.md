@@ -19,7 +19,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 5 Car 
 
 ## PROGRAM
-'''
+```
 models.py
 from django.db import models
 from django.contrib import admin
@@ -38,8 +38,7 @@ from django.contrib import admin
 from .models import Student, StudentAdmin
 # Register your models here.
 admin.site.register(Student,StudentAdmin)
-
-'''
+```
 
 ## OUTPUT
 ![alt text](<Screenshot 2025-11-25 115544.png>) 
